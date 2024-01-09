@@ -1,2 +1,2 @@
 # Dimelabs-web
-Files and dir. for dimelabs
+Website commissioned for dimelabs
