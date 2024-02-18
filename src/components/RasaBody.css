@@ -1,0 +1,99 @@
+.rasa-body{
+    display:flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    
+}
+.rasa-body-wrapper{
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.2); 
+    background-color: rgb(162,162,162,0.5);
+}
+.rasa-body-content {
+    justify-content: center;
+    flex-flow: column wrap;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    float: inline-start;
+}
+.rasa-body-content > h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: #ffffff;
+    padding-left: 5vh;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    padding-right: 5vh;
+    text-align: center;
+    font-size: 60px;
+}
+.rasa-body-content > hr {
+    margin-left: 2vh;
+}
+.rasa-body-content > p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    padding-left: 5vh;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    padding-right: 5vh;
+    text-align: justify;
+    font-size: 15px;
+    margin-left: 2.5vh;
+}
+
+.rasa-body-showcase-content > img {
+    max-height:305px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rasa-body-showcase-content > img:hover {
+    transform: scale(1.1);
+    transition: ease-in 1.5s;
+}
+.rasa-body-showcase-content > img:not(:hover) {
+    transform: scale(1.0);
+    transition: ease-in .5s;
+}
+
+.rasa-body-showcase {
+    width: auto;
+    height: auto;
+    display:block;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 2.5vh;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+    position: relative;
+    display: flow-root;
+}
+
+@media screen and (max-width: 1100px){
+    .rasa-body-showcase{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        margin-top: -0.5vh;
+    }
+    .rasa-body-showcase-content > img {
+        display: block;
+         margin-left: auto;
+      margin-right: auto;
+        width: 50%;
+    }
+    .rasa-body-content{
+        float: none;
+        
+        width: 100%;
+    }
+    .rasa-body-content > p{
+        text-align: justify;
+    }
+
+}
+

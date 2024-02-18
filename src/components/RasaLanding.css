@@ -1,0 +1,127 @@
+
+.rasa-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.2);
+    backdrop-filter: sepia;
+    
+}
+
+.rasa-container > h1 {
+    color: #ffff;
+    font-size: 90vh;
+    margin-bottom: -10vh;
+    font-family:'Times New Roman', Times, serif; 
+    padding-bottom: 20vh;
+}
+
+.rasa-container > h2{
+    color: #ffff;
+    text-align: right;
+    font-size: 3vh;
+    margin-bottom: 2vh;
+    margin-right: 15vh;
+    font-family:'Times New Roman', Times, serif; 
+    animation: fadeIn 3s;
+}
+
+.rasa-bg{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    filter: blur(10px);
+    
+
+}
+
+.rasavideo {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    /* filter: grayscale(); */
+}
+
+.rasa-showcase {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 1200px){
+    .rasa-container > h1 {
+        font-size: 75vh;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .rasa-container > h2 {
+        font-size: 30px;
+    }
+
+    
+}
+@media screen and (max-width: 980px){
+    .rasa-container > h1 {
+        font-size: 250px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .rasa-container > h2 {
+        font-size: 30px;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px){
+    .rasa-container > h1 {
+        font-size: 250px;
+        margin-top: 0;
+        margin-bottom: 0px;
+    }
+    .rasa-container > h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+    
+    @media screen and (max-width: 420px){
+        .rasa-container > h1 {
+            font-size: 180px;
+            margin-top: 0;
+            margin-bottom: 0px;
+        }
+        .rasa-container > h2 {
+            font-size: 30px;
+            margin-bottom: 0;
+            margin-right: 0;
+            text-align: center;
+        }
+        @media screen and (max-width: 250px){
+            .rasa-container > h1 {
+                font-size: 90px;
+                margin-top: 0;
+                margin-bottom: 0px;
+            }
+            .rasa-container > h2 {
+                font-size: 30px;
+                margin-bottom: 0;
+                margin-right: 0;
+                text-align: center;
+            }
+}
+}
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 5;}
+    
+}

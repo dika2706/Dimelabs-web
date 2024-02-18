@@ -1,0 +1,106 @@
+.knife-body {
+    display:flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.knife-body-content > img {
+    width: 45%;
+    height: auto;
+    margin-right: auto;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    display:inline-block;
+    position: relative;
+    margin-left: 7.5vh;
+}
+.knife-body-content > img:hover {
+    transform: scale(1.05);
+    transition: ease-in .3s;
+    
+}
+.knife-body-content > img:not(:hover) {
+    transform: scale(1.0);
+    transition: ease-in .5s;
+    
+}
+.knife-body-content {
+    background-color: rgba(0, 0, 0, 1);
+    color: #ffff;
+    display:flex;
+    height: 100%;
+    width: 100%;
+}
+.image-knife {
+
+}
+.knife-body-content-text > h2 {
+    width: auto;
+    font-family: "Inter";
+    font-size: 25pt;
+}
+.knife-body-content-text > p {
+    font-family: "epilogue";
+    width: auto;
+    
+}
+.knife-body-content-text > h4 {
+    font-family: "inter";
+    font-size: 15pt;
+}
+.knife-body-content-text {
+    display: inline-block;
+    position: relative;
+    flex-wrap: wrap;
+    float: inline-end;
+    margin-right: 25vh;
+    margin-top: 10em;
+    
+}
+.txt-seperator {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+.feature-list {
+    list-style-position: inside;
+}
+.feature-list > li {
+    font-family: "epilogue";
+    padding-top: .25em;
+}
+.feature-list > li:hover {
+    font-family: "epilogue";
+    padding-top: .25em;
+    transform: scale(1.005);
+    transition: ease-in 0.3s;
+    color: gold;
+    cursor: default;
+}
+
+.knife-body-content-text > h3 {
+    font-family: "inter";
+}
+
+@media screen and (max-width: 1200px) {
+    .knife-body-content-text {
+        display: block;
+        position:static;
+        flex-wrap:nowrap;
+        float:nowrap;
+        margin:auto;
+        margin-bottom: 5em;
+    }
+    .knife-body-content > img {
+        width: 50%;
+        height: auto;
+        margin-right: auto;
+        padding-top: 10em;
+        padding-bottom: 10em;
+        display: block;
+        position: relative;
+        margin-left: auto;
+    }
+    .knife-body-content {
+        flex-direction: column;
+    }
+}
