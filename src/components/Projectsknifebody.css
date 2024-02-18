@@ -102,5 +102,6 @@
     }
     .knife-body-content {
         flex-direction: column;
+        padding-left: 10pt;
     }
 }
