@@ -91,7 +91,32 @@
         margin-bottom: 5em;
     }
     .knife-body-content > img {
-        width: 50%;
+        width: 80%;
+        height: auto;
+        margin-right: auto;
+        padding-top: 10em;
+        padding-bottom: 10em;
+        display: block;
+        position: relative;
+        margin-left: auto;
+    }
+    .knife-body-content {
+        flex-direction: column;
+        padding-left: 10pt;
+    }
+    
+}
+@media screen and (max-width: 420px) {
+    .knife-body-content-text {
+        display: block;
+        position:static;
+        flex-wrap:nowrap;
+        float:nowrap;
+        margin:auto;
+        margin-bottom: 5em;
+    }
+    .knife-body-content > img {
+        width: 80%;
         height: auto;
         margin-right: auto;
         padding-top: 10em;
