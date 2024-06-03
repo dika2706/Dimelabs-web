@@ -6,7 +6,10 @@
     z-index: -1;
     height: 100%;
 }
+.jeep-landing-bg > img {
+    width: 100vw;
 
+}
 .jeep-title-card > h1 {
     font-size: 100px;
     font-weight: bold;
@@ -35,16 +38,17 @@
     margin-left: 75vh;
     width: 25%;
 }
-.jeep-disclosure {
+.jeep-disclosure > p{
     align-items: center;
     text-align: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
    .jeep-title-card > h1 {
      font-size: 6.5vw;
    }
    .to-show {
         display: none;
    }
+
 }
