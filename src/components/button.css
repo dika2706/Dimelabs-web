@@ -9,7 +9,7 @@
     outline: none;
     border: none;
     cursor: pointer;
-    font-family: 'sora';
+    font-family: "Sora","Inter";
   }
   
   .btn--primary {
