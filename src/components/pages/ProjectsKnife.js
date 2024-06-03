@@ -3,7 +3,7 @@ import ProjectsKnifeLanding from '../ProjectsKnifeLanding';
 import Footer from '../Footer';
 import Projectsknifebody from '../Projectsknifebody';
 import {useEffect} from 'react';
-import { Inter, Sora } from 'next/font/google';
+
 export default function ProjectsKnife() {
     useEffect(() => {
         // 👇️ scroll to top on page load

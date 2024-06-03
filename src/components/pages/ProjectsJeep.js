@@ -3,7 +3,7 @@ import JeepLanding from '../JeepLanding';
 import JeepBody from '../JeepBody';
 import Footer from '../Footer';
 import {useEffect} from 'react';
-import { Inter, Sora } from 'next/font/google';
+
 
 export default function ProjectsKnife() {
     useEffect(() => {
