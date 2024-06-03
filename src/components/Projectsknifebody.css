@@ -3,6 +3,14 @@
     height: 100%;
     width: 100%;
     flex-direction: column;
+    
+}
+.knife-ack > h4 {
+    font-family: 'sora';
+    text-align: center;
+    font-size: 12pt;
+    color: white;
+
 }
 .knife-body-content > img {
     width: 45%;
@@ -118,9 +126,35 @@
         padding-bottom: 10em;
         display: block;
         position: relative;
-        margin-left: auto;
+        margin-left: 35vh;
+        
     }
     .knife-body-content {
         flex-direction: column;
+        padding-left: 25pt ;
     }
+    .knife-body-subject > p {
+        margin-left: 2.5vh;
+    }
+    hr {
+        visibility: hidden;
+    }
+  
+}
+
+@media screen and (max-width: 420px) {
+    .knife-body {
+        height: 500%;
+    }
+    .knife-body-subject  > p{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 0pt;  
+    }
+    .knife-body-content > img {
+        margin-left: -2.5vh;
+        width: 100%;
+    }
+
+
 }

@@ -34,6 +34,7 @@ the need for external or aftermarket accessories.
                         </p>
                         <img src='/images/jeep-focus.png' alt='Use case'/>
                     </div>
+                    <div className='to-show'>
                     <div className='MOSI-body-content-overview-wrap'>
                         <h3 className='section-title'>
                             Assembly and Design
@@ -50,8 +51,9 @@ the need for external or aftermarket accessories.
                          <img src='/images/jeep-dimensions.png' alt='Hologram'/>
                          
                     </div>
-                    
+                    </div>
                 </div>
+                <p>Project in collaboration with Fiat Chrysler Automobiles, Travel accessory</p>
             </div>
             
         </div>

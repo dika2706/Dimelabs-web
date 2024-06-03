@@ -43,9 +43,15 @@ function Projectsknifebody() {
                         Designing the perfect knife.
                     </h3>
                     <p className='knife-subject-text'>
-                        "Designing the knife was a challenge. Here's the thought process. For reason's <b>ABC</b> and especially <b>DEFG</b> HIGHLIGHTING CERTAIN KEYWORDS"
+                    T.D.C 002 is a modular everyday carry knife that is compact and travel friendly. This project provided a modern and sleek design while maintaining Tyrant CNC's iconic brand language. T.D.C 002 has been manufactured and currently available in the market.
                     </p>
+                    <div className='knife-ack'>
+                        <h4>
+                        T.D.C 002 - Created under SO design in collaboration with Tyrant CNC in Chicago, Travel accessory
+                        </h4>
+                    </div>
             </div>
+
         </div>
     </div>
     </>

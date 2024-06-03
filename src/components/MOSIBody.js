@@ -15,10 +15,7 @@ function ProjectsKnifeLanding() {
                         To improve the <b>accessibility & outcome</b> of physical therapy
                         </p>
                         <p>
-                        At home physical therapy has become a popular option for
-                        patients due to its accessibility and convenience. There are
-                        countless home exercise program applications, softwares and
-                        products, however it does not solve the important problem.
+                        MOSI is a conceptual device that aims to improve accessibility and outcome of physical therapy by fusing future technology and medicine. The device consists of a holographic projector and sensors to guide users in performing the best possible exercises. Its compact and unassuming design allows portability which fits for every living space.
                         </p>
                         <img src='/images/MOSI-useskeetch.png' alt='Use case'/>
                     </div>
