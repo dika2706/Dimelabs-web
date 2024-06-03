@@ -1,7 +1,7 @@
 import './Footer.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import { Inter, Sora } from 'next/font/google';
 function Footer() {
   return (
     <div className='footer-container'>

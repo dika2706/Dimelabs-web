@@ -4,6 +4,7 @@ import React from 'react';
 import ProjectCards from '../ProjectCards';
 import Footer from '../Footer';
 import {useEffect} from 'react';
+import { Inter, Sora } from 'next/font/google';
 
 export default function Projects(){
     useEffect(() => {

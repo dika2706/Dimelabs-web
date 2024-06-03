@@ -3,6 +3,7 @@ import MOSILanding from '../MOSILanding';
 import Footer from '../Footer';
 import MOSIBody from '../MOSIBody';
 import {useEffect} from 'react';
+import { Inter, Sora } from 'next/font/google';
 export default function ProjectsKnife() {
     useEffect(() => {
         // 👇️ scroll to top on page load
