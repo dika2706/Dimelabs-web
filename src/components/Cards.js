@@ -5,8 +5,8 @@ import './Cards.css';
 function Cards() {
   return (
     <div className='cards'>
-        <h1>
-            Check out these projects!
+        <h1 className='cards-title'>
+            recent projects.
         </h1>
         <div className='cards--container'>
             <div className='cards--wrapper'>
@@ -15,45 +15,20 @@ function Cards() {
                     {/* this is where we pass the cardItemJs */}
                     <CardItem
                     src = "./images/knife-thumb.png"
-                    text = "Designing a modular everyday carry knife"
-                    label = "T.D.C. 002"
+                    text = "T.D.C. 002. Modular everyday knife."
+                    label = "2021"
                     path = "projectsknife"
                     />
                
                     {/* this is where we pass the cardItemJs */}
                     <CardItem
-                    src = "./images/img-5.jpg"
-                    text = "This is a sample card"
-                    label = "Most recent 2"
-                    path = "Projects"
+                    src = "./images/MOSI_Thumb.png"
+                    text = "MOSI. Improving exercise and physical therapy."
+                    label = "2022"
+                    path = "../projectsMOSI"
                     />
                 </ul>
-                <ul className='cards--items'>
-                    {/* this is where we pass the cardItemJs */}
-                    
-               
-                    {/* this is where we pass the cardItemJs */}
-                    <CardItem
-                    src = "./images/img-2.jpg"
-                    text = "This is a sample card"
-                    label = "Design2"
-                    path = "Projects"
-                    />
                 
-                    {/* this is where we pass the cardItemJs */}
-                    <CardItem
-                    src = "./images/img-3.jpg"
-                    text = "This is a sample card"
-                    label = "Design3"
-                    path = "Projects"
-                    />
-                     <CardItem
-                    src = "./images/rasa-proj.jpg"
-                    text = "Rasa: Food and Design."
-                    label = "The Rasa"
-                    path = "/projectsrasa"
-                    />
-                </ul>
             </div>
         </div>
         </div>

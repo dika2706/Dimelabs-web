@@ -18,11 +18,11 @@ function Footer() {
         <div className='footer-links'>
             <div className='footer-links-wrapper'>
                 <div className='footer-links-items'>
-                    <h2>About us</h2>
-                    <Link className='footer-links-items-links' to='/Goals'>Mission and Goals</Link>
-                    <Link className='footer-links-items-links' to='/contact-us'>Our Founders</Link>
-                    <Link className='footer-links-items-links' to='/contact-us'>Careers</Link>
-                    <Link className='footer-links-items-links' to='/contact-us'>Testimonials</Link>
+                    <h2>Our firm.</h2>
+                    <Link className='footer-links-items-links' to='/about-us'>About Us</Link>
+                    <Link className='footer-links-items-links' to='/projects'>Our Projects</Link>
+                    <Link className='footer-links-items-links' to='/contact-us'>Contact Us</Link>
+                   
                     
                 </div>
             </div>

@@ -1,0 +1,121 @@
+.aboutus-body {
+    animation: fadeIn 3s;
+}
+h5 {
+    color:#d1d1d1;
+    font-size: 35pt;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    /* display: block; */
+}
+.aboutus-title-card{
+    margin-left: 20pt;
+    margin-top: 25pt;
+}
+
+.aboutus-text {
+    /* font-style: italic; */
+    font-family: 'Inter', sans-serif;
+    font-size: 15pt;
+    text-align: left;
+    margin-top: 5pt;
+
+    display: inline-block;
+    color: black;
+    
+}
+.aboutus-title {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35pt;
+    text-align: right;
+    margin-top: 10pt;
+    
+}
+.aboutus-body-wrap{
+    margin-left: 65pt;
+    margin-right: 65pt;
+    margin-bottom: 20pt;
+}
+.aboutus-body {
+    margin-top: 0pt;
+    height: 110vh;
+    width: 100vh;
+    margin-left: 35pt;
+    display: inline-block;
+    margin-bottom: 55pt;
+}
+b {
+    display: inline-block;
+}
+.aboutus-text > b:hover, li>b:hover{
+    display: inline-block;
+    transition: ease-in 0.3s;
+    color: rgb(78, 78, 78);
+}
+li {
+    margin-top:10pt;
+    margin-bottom: 10pt;
+}
+
+.aboutus-collage {
+    vertical-align: top;
+    display: inline-block;
+    animation: fadeIn 3s;
+    width: 50%;
+    margin-top: 35pt;
+    height: 100vh;
+    overflow:scroll;
+}
+.aboutus-collage::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .aboutus-collage {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.aboutus-collage > img {
+    height: 35vh;
+    margin-left: 10pt;
+}
+.body-img-knife {
+    margin-left: 10pt;
+}
+.aboutus-collage > img:hover {
+    display: inline-block;
+    transform: scale(1.0125);
+    transition: ease-in 0.5s;
+    filter: grayscale(1);
+    cursor:pointer;
+}
+
+@media screen and (max-width: 1300px){
+        .aboutus-title{
+            font-size: 45px;
+        }
+        .aboutus-body {
+            margin-left: 10pt;
+            width: 50%;
+        }
+        .aboutus-text{
+            font-size: 15px;
+        }
+        .aboutus-collage {
+            width:45%;
+            height: 100vh;
+        }
+    }
+
+    @media screen and (max-width: 950px){
+        
+        .aboutus-collage{
+            display: none;
+        }
+        .aboutus-body{
+            width: 100%;
+            height: 80vh;
+        }
+}

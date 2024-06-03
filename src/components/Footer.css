@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: flex;
+    margin-bottom: -25vh;
 }
 
 .footer-intouch{
@@ -20,7 +21,7 @@
 }
 
 .footer-intouch > p {
-    font-family: 'Epilogue';
+    font-family: 'sora';
 
 }
 
@@ -72,21 +73,22 @@
 
 
 .footer-links-items h2{
-    font-family: "epilogue";
+    font-family: "sora";
     margin-right: 1.5em;
     font-size: 50pt;
     margin-left: 1.15em;
 }
 
 .footer-links-items > h2 {
+    margin-top: 10pt;
     color: #ffff;
-    font-family: "epilogue";
+    font-family: "sora";
 }
 .footer-links-items a {
     color: #ffff;
     text-decoration: none;
     margin-bottom: 8px;
-    font-family: "epilogue";
+    font-family: "sora";
 }
 .footer-links-items a:hover {
     color: #a5a5a5;

@@ -49,6 +49,7 @@
     width: 100%;
     padding-top: 67%;
     overflow: hidden;
+    font-family: 'inter';
   }
   
   .fade-img {
@@ -91,22 +92,24 @@
   
   .cards--item--info {
     padding: 20px 30px 30px;
-    font-family: 'Nunito';
+    font-family: 'Inter';
   }
   
   .cards--item--text {
     color: #252e48;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 24px;
-    font-family: 'pt';
+    font-family: 'Inter';
   }
 
   h5{
-    font-family:'Nunito',' Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Inter',' Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
-  h1{
-      font-family:'PT sans';
+  .cards-title{
+      font-family:'Inter';
+      font-weight: bold;
+      font-size: 45px;
   }
   
   @media only screen and (min-width: 1200px) {

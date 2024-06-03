@@ -1,11 +1,18 @@
-import '../../App.css';
-import React from 'react';
-
-function AboutUs() {
+import React from 'react'
+import AboutUsLanding from '../AboutUsLanding';
+import Footer from '../Footer';
+import {useEffect} from 'react';
+import AboutUsBody from '../AboutUsBody';
+export default function AboutUs() {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({top: 0, left: 0});
+  }, []);
   return (
-    <h1 className='About-Us'>About Us</h1>
+    <>
+    <AboutUsLanding/>
+    <AboutUsBody/>
+    <Footer/>
+    </>
   )
 }
-
-export default AboutUs
-

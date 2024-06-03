@@ -1,0 +1,21 @@
+.MOSI-bg {
+    width: 100%;
+    filter: brightness(50%) grayscale(100) blur(3px);
+    object-fit:cover;
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+}
+
+.title-card-MOSI > h1 {
+    font-size: 100px;
+    font-weight: bold;
+    animation: fadeIn 3s;
+    padding-top: 35vh;
+    font-family: "Sora";
+    color: white;
+}
+.MOSI-landing {
+    height: 100vh;
+    width: 100%;
+}

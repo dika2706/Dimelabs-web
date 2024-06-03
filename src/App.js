@@ -9,6 +9,8 @@ import ContactUs from './components/pages/ContactUs';
 import AboutUs from './components/pages/AboutUs';
 import ProjectsKnife from './components/pages/ProjectsKnife';
 import Goals from './components/pages/Goals';
+import ProjectsMOSI from './components/pages/ProjectsMOSI';
+import ProjectsJeep from './components/pages/ProjectsJeep';
 function App() {
   return (
         <>
@@ -20,7 +22,9 @@ function App() {
           <Route path ='/contact-us' element = {<ContactUs/>}></Route>
           <Route path = '/about-us' element = {<AboutUs/>}/>
           <Route path ='/projectsrasa' element = {<ProjectsRasa/>}></Route>
+          <Route path ='/projectsMOSI' element = {<ProjectsMOSI/>}></Route>
           <Route path ='/projectsknife' element = {<ProjectsKnife/>}></Route>
+          <Route path ='/projectsJeep' element = {<ProjectsJeep/>}></Route>
           <Route path = '/goals' element = {<Goals></Goals>}></Route>
           </Routes>
         </Router>

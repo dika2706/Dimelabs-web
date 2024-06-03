@@ -11,7 +11,7 @@ function DesignSection() {
         <h1>Welcome to DimeLabs</h1>
         <p>We design your future.</p>
         <div className="design-btns">
-            <Button className='btns' buttonStyle = "btn--outline" buttonSize = "btn--large">GET STARTED</Button>
+            {/* <Button className='btns' buttonStyle = "btn--outline" buttonSize = "btn--large">GET STARTED</Button> */}
             {/* <Button className='btns' buttonStyle = "btn--primary" buttonSize = "btn--large">Watch Showcase 
             <i className='far fa-play-circle'/>
             </Button> */}

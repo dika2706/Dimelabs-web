@@ -1,4 +1,5 @@
 import '../../App.css';
+import '../Projects.css';
 import React from 'react';
 import ProjectCards from '../ProjectCards';
 import Footer from '../Footer';

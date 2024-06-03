@@ -36,6 +36,15 @@ function Projectsknifebody() {
                  </ul>
                 </div>
                 <hr></hr>
+                
+            </div>
+            <div className='knife-body-subject'>
+                    <h3 className='knife-subject-header'>
+                        Designing the perfect knife.
+                    </h3>
+                    <p className='knife-subject-text'>
+                        "Designing the knife was a challenge. Here's the thought process. For reason's <b>ABC</b> and especially <b>DEFG</b> HIGHLIGHTING CERTAIN KEYWORDS"
+                    </p>
             </div>
         </div>
     </div>

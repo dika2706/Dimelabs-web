@@ -3,7 +3,6 @@
     object-fit:cover;
     position: fixed;
     z-index: -1;
-    filter: grayscale(100%);
     filter: blur(3px);
     height: 100%;
     width: 100%;
@@ -47,23 +46,6 @@
     }
     .title-card {
         padding-top: 10%;
-    }
-    .knife-landing {
-        height: 50vh;
-        box-shadow: none;
-    }
-    .knife-landing-bg {
-        width: 1200px;
-
-    }
-}
-@media screen and (max-width: 420px) {
-    .title-card > h1 {
-        font-size: 65px;
-        
-    }
-    .title-card {
-        padding-top: 45%;
     }
     .knife-landing {
         height: 50vh;

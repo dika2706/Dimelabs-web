@@ -5,8 +5,8 @@ import './Cards.css';
 function ProjectCards() {
   return (
     <div className='cards'>
-        <h1>
-            Check out these projects!
+        <h1 className='cards-title'>
+            a catalog of our past projects.
         </h1>
         <div className='cards--container'>
             <div className='cards--wrapper'>
@@ -15,29 +15,28 @@ function ProjectCards() {
                     {/* this is where we pass the cardItemJs */}
                     <CardItem
                     src = "./images/knife-thumb.png"
-                    text = "Designing a modular everyday carry knife"
-                    label = "T.D.C. 002"
+                    text = "T.D.C. 002. Modular everyday knife."
+                    label = "2021"
                     path = "../projectsknife"
                     />
                
                     {/* this is where we pass the cardItemJs */}
                     <CardItem
-                    src = "./images/img-5.jpg"
-                    text = "This is a sample card"
-                    label = "Most recent 2"
-                    path = "../contact-us"
+                    src = "./images/MOSI_Thumb.png"
+                    text = "MOSI. Improving exercise and physical therapy."
+                    label = "2022"
+                    path = "../projectsMOSI"
                     />
-                </ul>
-                <ul className='cards--items'>
+                
                     {/* this is where we pass the cardItemJs */}
                     <CardItem
-                    src = "./images/img-1.jpg"
-                    text = "This is a sample card"
-                    label = "Design1"
-                    path = "Projects"
+                    src = "./images/tent-background.png"
+                    text = "Jeep overlanding tent. Col. w/ FCA."
+                    label = "2020"
+                    path = "../projectsJeep"
                     />
                
-                    {/* this is where we pass the cardItemJs */}
+                    {/* this is where we pass the cardItemJs
                     <CardItem
                     src = "./images/img-2.jpg"
                     text = "This is a sample card"
@@ -45,13 +44,13 @@ function ProjectCards() {
                     path = "Projects"
                     />
                 
-                    {/* this is where we pass the cardItemJs */}
+                    
                      <CardItem
                     src = "./images/rasa-proj.jpg"
                     text = "Check out our latest project"
                     label = "The Rasa"
                     path = "../projectsrasa"
-                    />
+                    /> */}
                 </ul>
             </div>
         </div>

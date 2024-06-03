@@ -1,0 +1,66 @@
+.CU-bg {
+    width: 100%;
+    filter: brightness(50%) grayscale(100) blur(3px);
+    object-fit:cover;
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+}
+
+.CU-landing {
+    
+    width: 100%;
+    height: 100vh;
+}
+h2 a {
+    text-decoration: none;
+    color: white;
+}
+.title-card-CU > h1{
+    padding-top: 25vh;
+    font-size: 60pt;
+    font-family: 'sora';
+    margin-bottom: 10pt;
+    color: white;
+    animation: fadeIn 3s;
+}
+.email-contact h2 {
+    font-family: 'sora';
+    font-size: 25px;
+    color: white;
+    margin-right: 10pt;
+} 
+.ig-contact h2 {
+    font-family: 'sora';
+    font-size: 25px;
+    color: white;
+    margin-right: 10pt;
+} 
+.contacts-section {
+    align-items: center;
+    text-align: center;
+    animation: fadeIn 3s;
+}
+
+h2:hover {
+    transform: scale(1.05);
+    transition: ease-in .2s;
+}
+@media screen and (max-width: 420px){
+    .title-card-CU >h1 {
+        font-size: 50pt;
+        padding-top: 25vh;
+    }
+    .email-contact h2 {
+        font-family: 'sora';
+        font-size: 25px;
+        color: white;
+        margin-right: 10pt;
+    } 
+    .ig-contact h2 {
+        font-family: 'sora';
+        font-size: 25px;
+        color: white;
+        margin-right: 10pt;
+    } 
+}

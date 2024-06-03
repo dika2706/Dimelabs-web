@@ -1,0 +1,113 @@
+.MOSI-body{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(42, 42, 42, 0.75);
+    padding-top: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+.MOSI-body-content > h2 {
+    font-family: 'Inter';
+    color: white;
+    font-size: 40pt;
+    opacity: 1;
+    text-align: center;
+}
+
+.MOSI-body-content-overview-wrap > .section-head {
+    font-family: 'Inter';
+    color: white;
+    font-size: 20pt;   
+    font-weight: 100;
+}
+.section-title {
+    font-family: 'inter';
+    color: white;
+    font-size: 25pt;
+}
+.MOSI-body-content-overview-wrap {
+
+    padding: 10pt;
+    
+}
+.MOSI-body-content-overview-wrap > p {
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+}
+.MOSI-body-content-overview-wrap > img {
+    height: auto;
+    width: 50%;
+    margin-left: 50vh   ;
+}
+p {
+    font-family: 'Inter';
+    color: white;
+    font-size: 15pt;   
+    font-weight: 100;
+}
+.MOSI-gallery > img {
+    display: inline-block;
+    height: 130pt;
+   
+}
+.MOSI-gallery > img:hover {
+    transform: scale(1.15);
+
+}
+.MOSI-gallery {
+    margin-left: 20%;
+    align-items: center;
+}
+
+@media screen and (max-width: 1300px){
+    .MOSI-gallery > img {
+        display:block;
+        width: 75%;
+        height: auto;
+    }
+    .MOSI-body-content-overview-wrap > img {
+        height: auto;
+        width: 50%;
+        margin-left: 20%;
+    }
+    .MOSI-gallery > img:hover {
+        transform: scale(1.005);
+        transition: ease-in .8s;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .MOSI-gallery > img {
+        display:block;
+        height: auto;
+        width: 65%;
+       
+    }
+    .MOSI-gallery > img:hover {
+        transform: scale(1.005);
+        transition: ease-in .8s;
+    }
+    .MOSI-body-content-overview-wrap > img {
+        height: auto;
+        width: 50%;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .MOSI-gallery > img {
+        margin-left: 0pt;
+        width: 100%;
+    }
+    .MOSI-gallery {
+        margin-left: 0pt;
+    }
+    .MOSI-gallery > img:hover {
+        transform: scale(1.05);
+        transition: ease-in .8s;
+    }
+    .MOSI-body-content-overview-wrap > img {
+        visibility: hidden;
+    }
+}
