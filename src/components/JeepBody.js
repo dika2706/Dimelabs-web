@@ -53,7 +53,9 @@ the need for external or aftermarket accessories.
                     </div>
                     </div>
                 </div>
+                <div className='jeep-disclosure'>
                 <p>Project in collaboration with Fiat Chrysler Automobiles, Travel accessory</p>
+                </div>
             </div>
             
         </div>

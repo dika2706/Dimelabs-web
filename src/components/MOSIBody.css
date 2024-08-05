@@ -52,8 +52,9 @@ p {
    
 }
 .MOSI-gallery > img:hover {
-    transform: scale(1.15);
-
+   transition: ease-in .9s;
+   transform: scale(1.05);
+    
 }
 .MOSI-gallery {
     margin-left: 20%;

@@ -58,7 +58,7 @@ function ProjectsKnifeLanding() {
                         anatomy and alter exercise
                         accordingly
                         </p>
-                        <img src='/images/alignment-mosi.png' alt='Hologram'/>
+                   
                     </div>
                     <div className='MOSI-gallery'>
                       <img src='/images/mosi-block.png' alt='Hologram'/>

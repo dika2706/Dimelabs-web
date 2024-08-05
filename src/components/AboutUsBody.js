@@ -1,5 +1,6 @@
 import React from 'react'
 import './aboutUs.css'
+
 function AboutUsBody() {
     return (
         
@@ -44,17 +45,31 @@ function AboutUsBody() {
                     </div>
                   
                 </div>
-                
-            </div>
-            <div className='aboutus-collage'>
+            <div className='gallery'>
+                <div className='aboutus-collage'>
                 <img title="MOSI" className='body-img-workingguy' alt = "" src='./images/workingGuy.png'/>
                 <img title="ARC"className='body-img-arc' alt = "" src='./images/arcPhoto.png'/>
                 <img title ="ALU" className='body-img-alu' alt = "" src='./images/aluProduct.png'/>
                 <img title="JEEP"className='body-img-car' alt = "" src='./images/carSketch.png'/>
                 <img title ="T.D.C 002" className='body-img-knife' alt = "" src='./images/knifeDetails.png'/>
             </div>
+            </div>
+            </div>
+          
+           
             
         </>  )
 }
+
+// const gallery = document.getElementById('gallery');
+// window.onmousemove = e => {
+//     const mouseX = e.clientX, mouseY = e.clientY;
+//     const xDecimal = mouseX / window.innerWidth;
+//     const yDecimal = mouseY / window.innerHeight;
+//     const panX = gallery.offsetWidth *xDecimal * -1;
+//     const panY = gallery.offsetHeight * yDecimal * -1;
+//     gallery.style.transform = 'translate(${panX}px, ${panY}px';
+
+// }
 
 export default AboutUsBody
